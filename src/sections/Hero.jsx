@@ -1,7 +1,5 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
-import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { words } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
@@ -56,11 +54,23 @@ const Hero = () => {
               through code.
             </p>
 
-            <Button
-              text="See My Work"
-              className="md:w-80 md:h-16 w-60 h-12"
-              id="counter"
-            />
+            {/* Button + Resume Link Row */}
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
+              <Button
+                text="See My Work"
+                className="md:w-80 md:h-16 w-60 h-12"
+                targetId="projects"
+              />
+
+              <a
+                href="https://drive.google.com/file/d/14vj63MKz4Jb99eksPdXTkJfGXQB42l4u/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm md:text-base text-white-50 hover:text-white underline underline-offset-4 decoration-white/60 hover:decoration-white transition-all duration-300"
+              >
+                View My Resume →
+              </a>
+            </div>
           </div>
         </header>
 
@@ -72,7 +82,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <AnimatedCounter />
+      {/* <AnimatedCounter /> */}
     </section>
   );
 };

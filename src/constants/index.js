@@ -11,10 +11,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  // {
-  //   name: "Testimonials",
-  //   link: "#testimonials",
-  // },
 ];
 
 const words = [
@@ -33,42 +29,6 @@ const counterItems = [
   { value: 2000, suffix: "+", label: "Hours of Coding" },
   { value: 100000, suffix: "+", label: "Lines of Code Written" },
   { value: 12, suffix: "+", label: "Production Deployments" },
-];
-
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
 ];
 
 const abilities = [
@@ -119,12 +79,6 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-  // {
-  //   name: "Python Developer",
-  //   modelPath: "/models/python-transformed.glb",
-  //   scale: 0.8,
-  //   rotation: [0, 0, 0],
-  // },
   {
     name: "JavaScript Developer",
     modelPath: "/models/node-transformed.glb",
@@ -230,48 +184,27 @@ const expLogos = [
   { name: "UtsaaH", imgPath: "/images/logo-utsaah.jpg" },
 ];
 
-const testimonials = [
+const educationCards = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    title: "Gandhi Institute Of Technology and Advancement (GITA)",
+    logoPath: "/images/logos/gita.png",
+    course: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    grade: "GRADE: 9.2 CGPA",
+    duration: "2021-25",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    title: "Sainik School Bhubaneswar",
+    logoPath: "/images/logos/ssb.png",
+    course: "CBSE (XII), Science with Computer",
+    grade: "GRADE: 83%",
+    duration: "2020-21",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    title: "Sainik School Bhubaneswar",
+    logoPath: "/images/logos/ssb.png",
+    course: "CBSE (X), Science with Computer",
+    grade: "GRADE: 83%",
+    duration: "2018-19",
   },
 ];
 
@@ -279,29 +212,23 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    link: "https://www.instagram.com/er.aryan35",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/aryank35/",
   },
 ];
+
 
 export {
   words,
   abilities,
-  logoIconsList,
   counterItems,
   expCards,
   expLogos,
-  testimonials,
+  educationCards,
   socialImgs,
   techStackIcons,
   techStackImgs,
